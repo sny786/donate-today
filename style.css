@@ -1,0 +1,34 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 20;
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+}
+
+section {
+    display: flex;
+}
+
+.middle {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 120px;
+}
+
+.donation-button {
+    text-decoration: none;
+    background-image: linear-gradient(tomato, rgb(231, 73, 73));
+    padding: 10px 10px;
+    color: white;
+    font: 400;
+    border-radius: 2px;
+}
+
+.donation-four {
+    background-image: url(images/donation4.jpg);
+    background-repeat: no-repeat;
+}
