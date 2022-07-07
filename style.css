@@ -11,11 +11,17 @@ h1 {
 .flexible-container {
     display: flex;
     margin-bottom: 150px;
+    margin-top: 100px;
 
 }
 
 .half-width {
-    width: 50%;
+
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    display: block;
 
 
 }
@@ -32,8 +38,23 @@ h1 {
     background-image: linear-gradient(tomato, rgb(231, 73, 73));
     padding: 10px 10px;
     color: white;
-    font: 400;
+    font: 50px;
     border-radius: 2px;
+    margin-left: 300px;
+    margin-top: 100px;
+
+}
+
+.donation-button-for {
+    text-decoration: none;
+    background-image: linear-gradient(tomato, rgb(231, 73, 73));
+    padding: 10px 15px;
+    color: white;
+    font: 40px;
+    border-radius: 6px;
+    margin-left: 450px;
+    margin-top: 400px;
+
 
 }
 
@@ -58,6 +79,7 @@ h1 {
 
 footer {
     text-align: center;
+    display: block;
 }
 
 .title-align {
@@ -82,4 +104,18 @@ footer {
     border-width: 5px;
     border-style: inset;
 
+}
+
+.last-bit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    padding: 11px 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#caption {
+    background-color: red;
 }
