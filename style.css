@@ -8,15 +8,23 @@ h1 {
     color: white;
 }
 
-section {
+.flexible-container {
     display: flex;
+    margin-bottom: 150px;
+
+}
+
+.half-width {
+    width: 50%;
+
+
 }
 
 .middle {
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
-    padding-left: 120px;
+    padding-left: 140px;
 }
 
 .donation-button {
@@ -26,9 +34,52 @@ section {
     color: white;
     font: 400;
     border-radius: 2px;
+
 }
 
 .donation-four {
     background-image: url(images/donation4.jpg);
     background-repeat: no-repeat;
+
+}
+
+.basic-item {
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 20px gray;
+
+}
+
+#education {
+    background-color: rgb(247, 243, 207);
+}
+
+footer {
+    text-align: center;
+}
+
+.title-align {
+    text-align: center;
+}
+
+.money-manage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.money-align {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+
+#border {
+    border-color: red;
+    border-width: 5px;
+    border-style: inset;
+
 }
